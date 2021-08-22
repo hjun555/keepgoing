@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="push"></Button>
+
+<!--    직접 fragment 컴포넌트를 xml에 삽입하는 방법 -->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_01"-->
+<!--        android:name="com.example.myapplication.Fragment_01"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_shadow_start_color"/>
+
+</LinearLayout>

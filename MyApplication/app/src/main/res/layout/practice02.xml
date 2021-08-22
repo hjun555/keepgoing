@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/component"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#3F51B5"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#F44336"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/component"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#2196F3"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/component"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#CDDC39"
+        android:layout_above="@+id/component"
+        android:layout_toLeftOf="@id/component"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#009688"
+        android:layout_above="@+id/component"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#CDDC39"
+        android:layout_above="@+id/component"
+        android:layout_toRightOf="@+id/component"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#CDDC39"
+        android:layout_below="@+id/component"
+        android:layout_toLeftOf="@id/component"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#009688"
+        android:layout_below="@+id/component"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#CDDC39"
+        android:layout_below="@+id/component"
+        android:layout_toRightOf="@+id/component"/>
+</RelativeLayout>
